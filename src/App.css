@@ -7,10 +7,10 @@
 
 .status{
   font-size: 20px;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
-
 .message {
   font-size: 50px;
   margin-top: 0.5rem;
@@ -27,12 +27,6 @@
   text-transform: uppercase;
   line-height: 1.25; /* Adjust this to match leading-tight */
   color: #737373; /* Adjust this to match text-neutral-500 */
-}
-.rest{
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-  padding-bottom: 0.875rem;
-  padding-top: 1rem;
 }
 
 .board{

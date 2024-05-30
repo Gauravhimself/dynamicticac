@@ -107,6 +107,6 @@ const useTictac = (boardSize)=>{
         setIsXNext(true)
     }
 
-    return {board,handleClick,calculateWinner,getStatusMessage,resetGame,setBoard}
+    return {board,handleClick,calculateWinner,getStatusMessage,resetGame}
 }
 export default useTictac;
