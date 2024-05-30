@@ -8,7 +8,7 @@ function App() {
 
  
   return (
-    <Tictactoe  boardSize={3}/>
+    <Tictactoe />
   )
 }
 
